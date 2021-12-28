@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Belajar Javascript - NIOMIC</title>
+  </head>
+  <body>
+    <p>Click Untuk Merubah Warna.</p>
+
+    <button onclick="myFunction()">Ubah Warna</button>
+
+    <script>
+      function myFunction() {
+        const teks = prompt(
+          "Ketikan Warna yang kamu inginkan (English)",
+          "Warna"
+        );
+        document.body.style.backgroundColor = teks;
+      }
+    </script>
+  </body>
+</html>
